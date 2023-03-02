@@ -1,0 +1,48 @@
+{
+    "name": "xternalsoft/nova-eloquent-taggable-field",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Isern Palaus",
+            "email": "isern@palauaandsons.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Grégory Parrot",
+            "email": "gparrot@xternalsoft.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "cviebrock/eloquent-taggable": "^9.0 || ^10.0",
+        "laravel/nova": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XternalSoft\\NovaEloquentTaggableField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XternalSoft\\NovaEloquentTaggableField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
